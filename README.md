@@ -10,7 +10,7 @@ Nerf Auto Aiming is a stationary project that uses Nerf foam bullets, a pan-and-
 | **Top view** | **Isometric view** |
 | ![Top CAD view](assets/cad-top-view-2026-11-18-card.png) | ![Isometric CAD view](assets/cad-isometric-view-2026-11-18-card.png) |
 
-These views show the base, rotating platform, support structure, flywheel area, and magazine frame.
+We created a CAD model with all necessary parts excluding electronics. We will be 3d printing these parts. The views show the base, rotating platform, support structure, flywheel area, and magazine frame.
 
 ## Motor configuration
 
@@ -25,11 +25,11 @@ These views show the base, rotating platform, support structure, flywheel area, 
 
 ![Electronics concept diagram](assets/electronics-reference-diagram-2026-11-18.png)
 
-This diagram shows the overall electronics concept and components involved. It is a reference image, not a final pin-by-pin wiring diagram.
+We made a tinkercad drawing of all the electronic components and their wiring. 
 
 ## Current control stage
 
-The first version of the code focuses on basic left/right and up/down movement, starting the flywheels, and testing the pusher. This lets us test each motor and verify the mechanical design before adding computer vision.
+Our first version of the code focuses on the basic left/right and up/down movement, starting the flywheels, and testing the pusher. This will let us test each motor and verify the mechanical design before adding computer vision.
 
 ## Planned camera vision stage
 
@@ -44,4 +44,4 @@ After the stationary-target version is working reliably, a future goal is to exp
 ## Project resources
 
 - [CAD model](https://umd.onshape.com/documents/39f0e04ffb64eaaf0c0195c2/w/fc1426d76dea3f889e09ae53/e/ababacd6a38a37249e9c30a2?aa=true)
-- Bill of materials
+- [Bill of materials](https://docs.google.com/spreadsheets/d/1sweWJN2WocBOi1uvdVyfQQauEm6b36SBQ6xDuDEpAjE/edit?usp=sharing)
