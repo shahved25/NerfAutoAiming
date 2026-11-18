@@ -1,6 +1,6 @@
-# Nerf Defense Turret
+# Nerf Auto Aiming
 
-Nerf Defense Turret is a stationary project that uses Nerf foam bullets, a pan-and-tilt mechanism, a flywheel system, and a camera-based vision plan. The project is being built in stages so each movement can be tested before the camera system is added.
+Nerf Auto Aiming is a stationary project that uses Nerf foam bullets, a pan-and-tilt mechanism, a flywheel system, and a camera-based vision plan. The project is being built in stages so each movement can be tested before the camera system is added.
 
 ## CAD model
 
