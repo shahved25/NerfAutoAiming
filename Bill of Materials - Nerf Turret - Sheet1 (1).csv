@@ -1,0 +1,13 @@
+Component Name,Subsystem,Quantity,Unit Cost,Total Cost,Status,Supplier,Purchase Link
+Arduino Uno ,Compute & Control,1,$20.63,$20.63,Quoted,Amazon,https://a.co/d/0b7LT2rb
+MG996R 55g Metal Gear Torque Digital Servo Motor 2x,Drivetrain,1,$13.98,$13.98,Quoted,Amazon,https://a.co/d/0j5opPSN
+SG90 9g Micro Servo Motor,Drivetrain,1,$4.99,$4.99,Quoted,Amazon,https://a.co/d/0dMuKQb7
+Diode Rectifier 1N4007 (for flywheel controller),Electronics,1,$0.00,$0.00,Quoted,Amazon,Free at uni
+220 Ohm Resistor (for flywheel controller),Electronics,1,$0.00,$0.00,Quoted,Amazon,Free at uni
+NPN Transistor PN2222 (for flywheel controller),Electronics,1,$0.00,$0.00,Quoted,Amazon,Free at uni
+100nF ceramic capacitor (for flywheel electrical noise),Electronics,2,$0.00,$0.00,Quoted,Amazon,Free at uni
+"1080p 60fps Webcam, 78°FOV FHD PC Camera",Vision,1,$19.99,$19.99,Quoted,Amazon,https://a.co/d/0gT0vlql
+130 DC motor (for flywheel),Drivetrain,2,$3.49,$6.98,Quoted,Amazon,https://a.co/d/0bXKxzAw
+,,,,,,,
+,,,,Project Cost,,,
+,,,,$66.57,,,
