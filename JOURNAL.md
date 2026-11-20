@@ -10,7 +10,9 @@ We added added a 2nd degree of motion with a rotating stationary mount that lets
 
 
 # Second entry (11/19/26) - 2 hrs
-Researched into bounding box algorithms to use for the camera to search for the target. We landed on OpenCV as the best model. In VSCode we created a really basic bounding box algorithm to identify faces and put boxes around them. We made this algorithm based on documentation in the OpenCV docs and GeeksForGeeks. Then we created another algorithm for identifying a concentrated black space in the camera view. This took some tweaking to figure out how dark it considered a color as black and how big the object must be. Also we made it so that it identified a bounding box only after 3 consecutive frames of seeing a dark object, so that bounding boxes don't flicker in and out.
+We had two ideas for the camera. One was to mount it on the turret so it moves until the target is in the center of the camera view. The other was to keep the camera in one place and use its view to figure out where the turret should aim.
+We chose to mount the camera on the turret because we thought it would be more accurate and easier to set up.
+Then we researched into bounding box algorithms to use for the camera to search for the target. We landed on OpenCV as the best model. In VSCode we created a really basic bounding box algorithm to identify faces and put boxes around them. We made this algorithm based on documentation in the OpenCV docs and GeeksForGeeks. Then we created another algorithm for identifying a concentrated black space in the camera view. This took some tweaking to figure out how dark it considered a color as black and how big the object must be. Also we made it so that it identified a bounding box only after 3 consecutive frames of seeing a dark object, so that bounding boxes don't flicker in and out.
 <img width="1365" height="767" alt="Screenshot 2026-11-18 at 5 38 16 PM" src="https://github.com/user-attachments/assets/8dfb422b-36d0-4319-a743-a7f96e1df6bf" />
 
 # Third entry (11/20/26) - 3 hrs
