@@ -1,8 +1,3 @@
-/* This sketch shows how we plan to test the motor controls using the Arduino Serial Monitor. Type a command and press Send to change the simulated pan 
-and tilt angles or toggle the two other motor states. The current settings are example values because we haven't tested the hardware yet. For now,
-the sketch only prints the results and doesn't move any physical motors.
-*/
-
 int panAngle = 90;    // Left and right
 int tiltAngle = 90;   // Up and down
 int stepSize = 5;     // Change the angle by 5 degrees per command
