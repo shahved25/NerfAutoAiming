@@ -1,5 +1,6 @@
 # First entry (11/18/26) - 3.5 hrs
 So we didn't realize we had to be journalling while making the project, but don't worry we'll go over each part of our process here in detail. 
+At first we were unsure about what type of project we wanted to do, so we brainstormed ideas by taking our strongest skills and noting them down and skills we wanted to learn. Through this process, we narrowed down our project idea and decided we wanted to build something that could detect objects and interact with the real world. We were interested in combining software with a physical design, so we began exploring how different parts interacted with one another. This led us to the idea of creating a Nerf Auto Aiming Mount that could eventually use a camera to find and aim toward a target.
 Firstly, we searched through online to find some inspiration for the mechanics of the robot design. We used this project (https://blog.arduino.cc/2021/05/31/a-remote-controlled-arduino-nerf-tank/) as a base point for our CAD model since we are new to CAD and this provides us with a base point for mechanical design. 
 We added added a 2nd degree of motion with a rotating stationary mount that lets the Nerf dart shoot left and right. We added more capacity to the magazine and created a stationary design with bottom mount to hide wiring.
 
