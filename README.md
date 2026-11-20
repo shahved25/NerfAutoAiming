@@ -1,6 +1,6 @@
 # Nerf Auto Aiming
 
-Nerf Auto Aiming is a stationary project that uses Nerf foam bullets, a pan-and-tilt mechanism, a flywheel system, and a camera-based vision plan. The project is being built in stages so each movement can be tested before the camera system is added.
+Our goal is to create a robotics project that uses computer vision to perform a mechanical task. We were inspired by projects online that control the direction of a Nerf Shooter with servo motors. Instead of an out-of-the-box shooter, we want to build our own mechanism to shoot Nerf darts with two flywheels and a servo motor. We will also add our own vision system using OpenCV's object detection to identify the paper target and move the mount accordingly to aim. The project is being built in stages so each movement can be tested before the camera system is added. 
 
 ## CAD model
 
@@ -31,7 +31,7 @@ We made a tinkercad drawing of all the electronic components and their wiring.
 
 Our first version of the code focuses on the basic left/right and up/down movement, starting the flywheels, and testing the pusher. This will let us test each motor and verify the mechanical design before adding computer vision.
 
-## Planned camera vision stage
+## Camera vision stage
 
 The next stage will add a camera mounted on top of the turret. OpenCV will be used to find a dark target against a light-colored room background and draw a bounding box around it. The software will use the target’s location in the camera frame to guide pan and tilt adjustments until it is centered. Distance information will also be used to refine the upward angle.
 
